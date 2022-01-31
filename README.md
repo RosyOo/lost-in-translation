@@ -1,4 +1,4 @@
-#Lost in translation
+# Lost in translation
 American sign language translator app in react
 
 ## Setup
