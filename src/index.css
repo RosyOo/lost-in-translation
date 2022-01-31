@@ -5,9 +5,56 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fdcc5e;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav{
+  background-color: rgb(222 135 45);
+  padding: 1vw;
+  font-size: 1rem;
+}
+
+.translationPageBox {
+  padding:3vw;
+  background-color:rgb(255, 250, 227);
+  box-shadow: #484647 6px 14px 4px 6px;
+  border-radius: 5px;
+}
+
+.translationPageBox button {
+  background-color: rgb(53, 204, 231);
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding:1vw;
+  
+
+}
+
+.translationPageBox label {
+  margin-bottom: 3vw;
+  margin-right: 1vw;
+  font-weight: bold;
+
+}
+
+.loginForm {
+  padding:3vw;
+  background-color:rgb(255, 250, 227);
+  box-shadow: #484647 6px 14px 4px 6px;
+
+}
+
+.loginForm fieldset {
+  border: none;
+}
+
+
+

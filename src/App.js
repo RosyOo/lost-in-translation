@@ -4,16 +4,18 @@ import {
   Routes,
   Route
 } from 'react-router-dom'
-import Startup from './pages/Startup'
+import Login from './pages/Login'
 import Translation from './pages/Translation'
 import Profile from './pages/Profile'
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <Navbar/>
         <Routes>
-          <Route path="/" element={ <Startup />} />
+          <Route path="/" element={ <Login />} />
           <Route path="/translation" element={ <Translation /> } />
           <Route path="/profile" element={ <Profile /> } />
         </Routes>
